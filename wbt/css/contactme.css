@@ -1,0 +1,121 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f3;
+    color: #f82b2b;
+    line-height: 1.6;
+    padding: 0;
+    margin: 0;
+}
+
+
+form {
+    max-width: 600px;
+    margin: 40px auto;
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border: 2px solid #f86724;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+form input[type="text"],
+form input[type="email"],
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+form label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+
+form input[type="radio"] {
+    margin-right: 8px;
+    margin-left: 4px;
+    accent-color: #113d3c;
+}
+
+
+form input[type="submit"] {
+    background-color: #113d3c;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #ff7627;
+}
+
+
+form br + br {
+    margin-top: 10px;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px 10%;
+    background-color: #222; 
+}
+
+header ul {
+    display: flex;
+    justify-content: center; 
+    gap: 35px;               
+}
+
+header li {
+    font-size: 18px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #eee;          
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: #222;
+    background-color: #f76c1b;
+    border-color: #f76c1b;     
+    box-shadow: none;      
+}
+
+
+.contain {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+    text-align: center;     
+    padding: 20px;
+}

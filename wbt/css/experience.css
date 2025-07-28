@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin: 40px 50px;
+    font-family: Arial, sans-serif;
+}
+
+.nascenia, .technext, .bdtaskltd {
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+    border: 4px solid tomato;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff7f3;
+    min-height: 250px;
+    margin: 30px 150px 0 150px; 
+    gap: 20px;
+}
+
+.nascenia .image, .technext .image, .bdtaskltd .image {
+    width: 25%;
+    max-height: 200px;
+    overflow: hidden;
+}
+
+.nascenia .image img, .technext .image img, .bdtaskltd .image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+}
+
+img {
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.nascenia .text, .technext .text, .bdtaskltd .text {
+    width: 60%;
+}
+
+.nascenia .text h1, .technext .text h1, .bdtaskltd .text h1 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+.nascenia .text ul, .technext .text ul, .bdtaskltd .text ul {
+    list-style: none;
+}
+
+.nascenia .text li, .technext .text li, .bdtaskltd .text li {
+    margin-bottom: 8px;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.nascenia .text li strong, .technext .text li strong, .bdtaskltd .text li strong {
+    color: #f76c1b;
+}
+
+header {
+    padding: 20px 10%;
+    background-color: #222; 
+}
+
+header ul {
+    display: flex;
+    justify-content: center; 
+    gap: 35px;               
+}
+
+header li {
+    font-size: 18px;
+    list-style: none;
+}
+
+header a {
+    text-decoration: none;
+    color: #eee;          
+    padding: 8px 15px;
+    border: 2px solid transparent;
+    border-radius: 6px;
+    transition: all 0.3s ease;
+    font-weight: 600;
+}
+
+header a:hover {
+    color: #222;
+    background-color: #f76c1b;
+    border-color: #f76c1b;     
+    box-shadow: none;      
+}
+
+.contain {
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+    flex-direction: column; 
+    text-align: center;     
+    padding: 20px;
+}
+
+.contactInfo {
+    max-width: 600px; 
+}
+
+.copyRight {
+    text-align: center;      
+}
